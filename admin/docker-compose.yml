@@ -14,7 +14,7 @@ services:
   db:
     image: mysql:5.7.22
     restart: always
-    enviroment:
+    environment:
       MYSQL_DATABASE: admin
       MYSQL_USER: root
       MYSQL_PASSWORD: root
